@@ -1,10 +1,13 @@
-<registrationData>
-<data>
-<Firstname>myfirstname</Firstname>
-<Lastname>mylastname</Lastname>
-</data>
-<data>
-<Firstname>yourfirstname</Firstname>
-<Lastname>yourlastname</Lastname>
-</data>
-</registrationData>
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+    <listeners>
+    <listener class-name="com.Utilities.Mylistener"/>
+    </listeners>
+      <class name="com.Utilities.LoginTest"/>
+      <class name="com.test.Registration_TestTest"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
